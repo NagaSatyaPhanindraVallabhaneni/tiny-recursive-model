@@ -1,0 +1,26 @@
+{
+  "trm": {
+    "params": 44001,
+    "n_steps": 4,
+    "cell_acc": 0.9816,
+    "exact_match": 0.2995,
+    "latency_ms": 8.614
+  },
+  "baseline": {
+    "params": 4921370,
+    "cell_acc": 0.7202,
+    "exact_match": 0.0,
+    "latency_ms": 4.914
+  },
+  "config": {
+    "n_train": 8000,
+    "n_val": 2000,
+    "n_holes": 30,
+    "epochs": 15,
+    "batch": 128,
+    "lr": 0.001,
+    "seed": 0,
+    "device": "cpu"
+  },
+  "wall_time_s": 1092.6
+}
